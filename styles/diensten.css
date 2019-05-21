@@ -1,0 +1,40 @@
+.diensten-background {
+    text-align: center;
+}
+.diensten-background >img{
+    height: 25rem;
+    width: 25rem;
+}
+.diensten-background > h2{
+    font-weight: 500;
+}
+.diensten-background > a{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 2px solid #333333;
+    color: #333333;
+    font-weight: 600;
+}
+table{
+    width: 80%; 
+    height: 50vh;  
+    text-align: center;
+    margin: 4rem auto;
+    padding: 2rem 0;
+    color: #333333;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+table, tr{
+    background-color: var(--main-color);
+}
+table td + td{
+    border-left: 1px solid white;
+}
+tr{
+    padding: 0;
+    margin: 0;
+}

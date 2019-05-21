@@ -1,0 +1,232 @@
+/* Variables */
+:root{
+    --main-color: #F89820;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.desc{
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+.selected{
+    color: var(--main-color);
+}
+nav{
+    background-color: #333333;
+}
+.nav-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 12vh;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FFFFFF;
+    letter-spacing: 0.2rem;
+}
+.logo > a > span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.nav-links{
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-items: end;
+}
+.nav-links > a{
+    color: #EBEBEB;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.nav-links > a:hover{
+    color: var(--main-color);
+}
+.wrapper{
+    background-color: var(--main-color); 
+    height: 88vh;
+}
+.welcome{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome-text > div > h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.welcome-text > div > h3{
+    font-weight: 100;
+}
+.welcome-text > div > a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+    border: 2px solid #000000;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.welcome-image > img{
+    height: 30rem;
+    width: 30rem;
+}
+
+/* =============== */
+.wordt-lid{
+    background-color: #000000;
+}
+.space{
+    padding-bottom: 0.5rem;
+    display: block;
+}
+.diensten-wrapper{
+    background: #333333;
+}
+.diensten-wrapper > h1{
+    text-align: center;
+    padding-top: 2.5rem;
+    color: var(--main-color);
+}
+.diensten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.zwemmen, .gym, .zumba{
+    background-color: var(--main-color);
+    text-align: center;
+    height: 50vh;
+    padding: 4rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.zwemmen, .gym, .zumba > p{
+    font-weight: 900;
+}
+
+.zumba > ul{
+    list-style: none;
+    text-align: center;
+}
+.zumba > ul > li{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #000000;
+}
+.gym > ul{
+    list-style: none;
+    text-align: center;
+}
+.gym > ul > li{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #000000;
+}
+.zwemmen > ul{
+    list-style: none;
+    text-align: center;
+}
+.zwemmen > ul > li{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #000000;
+}
+.margin-top{
+    margin-top: 4rem;
+}
+.bekijk{
+    display: inline-block;
+    background: #000000;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    width: 40%
+}
+.pakketten{
+    background-color: var(--main-color);
+    width: 100%;
+}
+.pakketten-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    display: grid;
+    grid-auto-flow: column;
+}
+.zwempakket-beschrijving{
+    display: grid;
+    align-content: center;
+    justify-content: end;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.zwempakket > img{
+    height: 30rem;
+    width: 29rem;
+}
+.center{
+    text-align: center;
+}
+footer{
+    background-color: #333333;
+}
+.footer-wrapper{
+    background-color: #333333;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 4rem 0;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+ul >li{
+    list-style-type: none;
+}
+b{
+    color: var(--main-color);
+}
+.copyright{
+    background-color: #000000;
+    color: rgb(160, 152, 152);
+    padding: 1rem;
+    text-align: center;
+}
